@@ -428,13 +428,6 @@
         }
       }
     },
-
-    /*
-
-      Now that the main cluster has been created, deploy the specified number of infrastructure nodes
-
-    */
-
     {
       "type": "Microsoft.Resources/deployments",
       "name": "AutomateCluster-InfrastructureNodes",
